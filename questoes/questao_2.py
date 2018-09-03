@@ -11,7 +11,9 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 2")
+    c = float(input("Informe a temperatura em graus Celsius: ")) #temperatura em celsius
+    f = 1.8*c + 32 #conversao para graus fahrenheit
+    print("A temperatura informada corresponde a " + str(f) + " graus Fahrenheit.")
 
 
 

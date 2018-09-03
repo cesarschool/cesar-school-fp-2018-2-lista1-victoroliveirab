@@ -13,7 +13,10 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 5")
+	cigarros = int(input("Quantos cigarros você fuma por dia? "))
+	anos = int(input("Há quantos anos você fuma? "))
+	perda = float((cigarros * anos * 365)/144) # (365 dias * 10 minutos) / (24h * 60 min) = 3650 / 1440 = 365 / 144
+	print("Este fumante perdeu " + str(perda) + " dias de vida por conta do cigarro.")
 
 
     

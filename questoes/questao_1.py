@@ -11,7 +11,11 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 1")
+    salario = int(input("Informe seu salario: "))
+    aumento = int(input("Informe o seu aumento percentual: "))
+    aumento = aumento*salario/100
+    salario += aumento
+    print("Seu novo salario é " + str(salario) + " por conta de um aumento de " + str(aumento))
     
 
 

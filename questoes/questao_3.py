@@ -11,7 +11,12 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 3")
+    from math import pi
+    R = float(input("Insira do raio da circunferência desejada: "))
+    area = pi * R**2
+    d = 2*R
+    comprimento = 2*pi*R
+    print("Uma circunferência de raio " + str(R) + " tem as seguintes propriedades:\nArea = " + str(area) + "\nDiâmetro = " + str(d) + "\nComprimento = " + str(comprimento) + "\nObrigado pela confiança :P")
 
 
     
